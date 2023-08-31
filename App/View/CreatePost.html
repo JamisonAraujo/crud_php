@@ -1,0 +1,12 @@
+<h1>Criar Postagem</h1>
+<form method="post" action="?page=admin&op=insert">
+
+    <span>Título</span><br>
+    <input type="text" name="postTitle"><br>
+
+    <span>Conteúdo</span><br>
+    <textarea cols="30" rows="5" name="postContent"></textarea><br>
+    <input type="hidden" name="pageReturn" value="{{pageReturn}}">
+
+    <input type="submit" name="action" value="Publicar">
+</form>

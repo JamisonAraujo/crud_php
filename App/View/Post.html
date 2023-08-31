@@ -1,0 +1,20 @@
+<section>
+
+    <article>
+        <h2>{{postTitle}} </a></h2>
+        <p>{{postContent}}</p>
+    </article>
+
+    <p class="commentCount">{{commentCount}}</p>
+    <form method="post" action="?page=post&post_id={{post_id}}&op=insertComment">
+        <input type="hidden" name="postId" value="{{post_id}}">
+        <input type="text" name="username" placeholder="Nome:"><br>
+        <textarea cols="90" rows="5" name="message" placeholder="Deixe um comentário:"></textarea><br><br>
+        <input type="submit" value="Comentar">
+    </form>
+
+    <div class="commentWrapper">
+        {{commentWrapper}}
+    </div>
+
+</section>

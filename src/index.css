@@ -1,0 +1,97 @@
+body{
+    background-color: rgba(66, 56, 204, 0.829);
+    margin-left: 20px;
+    font-family: Arial;
+}
+
+header{
+    padding: 10 0 10 0px;
+    
+}
+
+.header, .header2 {
+    font: 30px Arial;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.header2 {
+    font-size: 16px;
+}
+
+.header:hover, .header2:hover {
+    text-decoration: underline;
+}
+
+.content, header {
+    background: beige;
+    border: 1px solid grey;
+}
+
+.content{
+    padding: 10px 20px;
+}
+
+article{
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    background-color: #fff;
+}
+
+article > h2{
+    padding: 0 20px;
+    font: 22px Arial;
+}
+
+h3 {
+    font: 22px Arial;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+
+}
+
+article > p {
+    padding: 0 20px;
+    font: 16px Arial;
+}
+
+.commentCount {
+    /* margin-left: 20px; */
+    font: bold 12px Arial;
+}
+
+.commentWrapper {
+    padding: 0 20px;
+    border: 2px solid grey;
+    background-color: rgba(66, 56, 204, 0.829);;
+}
+
+.comment {
+    padding: 0 20px;
+    border: 2px solid grey;
+
+    background-color: #fff;
+}
+
+.textareas {
+    display: block;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid grey;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 12px;
+}

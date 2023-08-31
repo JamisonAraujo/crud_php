@@ -1,0 +1,13 @@
+<h1>Editar Postagem</h1>
+<form method="post" action="?page=admin&op=update">
+    <h3 name="id">ID: {{post_id}}</h3>
+    <input type="hidden" name="postId" value="{{post_id}}">
+
+    <span>Título</span><br>
+    <input type="text" name="postTitle" value="{{postTitle}}"><br><br>
+    
+    <span>Conteúdo</span><br>
+    <textarea cols="60" rows="5" name="postContent">{{postContent}}</textarea><br><br>
+    <input type="submit" value="Editar">
+    <input type="button" value="Voltar" onclick="location.href='?page=admin&op=index'">
+</form>
